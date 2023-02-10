@@ -1,0 +1,13 @@
+div{
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 10px solid red;
+    /*줄바꿈 하지 말아라!*/
+    white-space: nowrap;
+    /*나머지 문장 숨기기*/
+    overflow: hidden;
+    /*스크롤 생성*/
+    /*overflow: scroll;*/
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
